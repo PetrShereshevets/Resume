@@ -6,130 +6,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="keywords" content="shereshevets, petr, cv, resume"/>
     <meta name="description" content="Сaйт резюме"/>
+    <link rel="stylesheet" href="styles.css" />
     <title>My Resume</title>
 </head>
 <body>
-    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQESaUTbHYe9Dg/profile-displayphoto-shrink_800_800/0/1613122546686?e=1666224000&v=beta&t=FZ6aiD__DU-ynKZLJ-rJBmwXLzPnJ83BC7EySw6f6Qs"
-         alt="My Foto" width="200" />
+    <div class="container">
+        <div class="info">
 
-    <h1>Petr Shereshevets</h1>
-    <h2>.NET Developer</h2>
-    <p>
-        Ready to plunge into work processes and become better every day.
-        My goal is to reach personal heights and become a good specialist.
-    </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQESaUTbHYe9Dg/profile-displayphoto-shrink_800_800/0/1613122546686?e=1666224000&v=beta&t=FZ6aiD__DU-ynKZLJ-rJBmwXLzPnJ83BC7EySw6f6Qs"
+                 alt="My Foto" class="foto" />
 
-    <p>+375336308106</p>
-    <p>Pryzany, Belarus</p>
-    <p>Petr.Shereshevets@gmail.com</p>
-    <p>
-        <a href="https://www.linkedin.com/in/petr-shereshevets"
-           target="_blank">linkedin.com/in/petr-shereshevets</a>
-    </p>
+            <div class="contact">
+                <p>+375336308106</p>
+                <p>Pryzany, Belarus</p>
+                <p>Petr.Shereshevets@gmail.com</p>
+                <p>
+                    <a href="https://www.linkedin.com/in/petr-shereshevets"
+                       target="_blank">Linkedin</a>
+                </p>
 
-    <p>
-        <a href="https://t.me/Petr_Sher"
-           target="_blank">Telegram</a>
-    </p>
-
-
-    <h3>EDUCATION </h3>
-    <p>2009-2014    BNTY     ATF</p>
-
-
-    <p>
-        <h3>SKILS </h3>
-        <ol>
-            <li>C# </li>
-            <li>ASP.NET Core</li>
-            <li>Entity Framework</li>
-            <li>My SQL</li>
-            <li>Git</li>
-            <li>Dessign Patterns</li>
-            <li>LINQ</li>
-            <li>WEB API</li>
-        </ol>
-    </p>
+                <p>
+                    <a href="https://t.me/Petr_Sher"
+                       target="_blank">Telegram</a>
+                </p>
+            </div>
+            <div class="info-text">
+                <h1>Petr Shereshevets</h1>
+                <h2>.NET Developer</h2>
+                <p>
+                    Ready to plunge into work processes and become better every day.
+                    <br />My goal is to reach personal heights and become a good specialist.
+                </p>
 
 
-    <p>
-        <h3>SERTIFICATES </h3>
-        <table>
-
-            <tr>
-                <td>2022</td>
-                <td>
-                    <a href="https://raw.githubusercontent.com/PetrShereshevets/Resume/main/SertificatC.png">C# DEVELOPMENT</a>
-                </td>
-                <td>IT-Academy</td>
-            </tr>
-        </table>
-    </p>
-
-
-    <p>
-        <h3>INTERESTS </h3>
-        <ol>
-            <li>Marathon race </li>
-            <li>Swimming</li>
-            <li>Travels</li>
-        </ol>
-    </p>
-
-    <p>
-        <h3>LANGUAGES </h3>
-
-        <ol>
-            <li>Russian - Native or Billingual Proficiency </li>
-            <li>English - А1.  Beginner</li>            
-        </ol>
-    </p>
-
-    <h3>WORK EXPERIENCE </h3>
-    <table>
-
-        <tr>
-            <td>2019-2021</td>
-            <td>Specialist in the effectiveness of sink programs</td>
-            <td>Danone</td>
-        </tr>
-        <tr>
-            <td>2017-2019</td>
-            <td>Equipment adjuster</td>
-            <td>Danone</td>
-        </tr>
-        <tr>
-            <td>2016-2017</td>
-            <td>Pasteurization operator</td>
-            <td>Danone</td>
-        </tr>
-        <tr>
-            <td>2015-2016</td>
-            <td>Operator</td>
-            <td>Danone</td>
-        </tr>
-
-    </table>
-    <h3>PERSONAL PROJECTS </h3>
-    <p> - </p>
-
-    <h2>Связаться со мной</h2>
-    <form action="/">
-        <div>
-            <label for="name">Введите ваше имя</label>
-            <input type="text" id="name" />
+            </div>
         </div>
-        <div>
-            <label for="email">Введите ваш email</label>
-            <input type="email" id="email" />
-        </div>
-        <div>
-            <label for="message">Введите ваше сообщение</label>
-            <br />
-            <textarea id="message" cols="20" rows="5"></textarea>
-        </div>
-        <input type="submit" value="Отправить" />
-    </form>
 
+
+        <div class="card">
+            <h3>EDUCATION </h3>
+            <p>2009-2014    BNTY     ATF</p>
+        </div>
+
+        <div class="card">
+            <p>
+                <h3>SKILS </h3>
+                <ol class="list">
+                    <li>C# </li>
+                    <li>ASP.NET Core</li>
+                    <li>Entity Framework</li>
+                    <li>My SQL</li>
+                    <li>Git</li>
+                    <li>Dessign Patterns</li>
+                    <li>LINQ</li>
+                    <li>WEB API</li>
+                </ol>
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                <h3>SERTIFICATES </h3>
+                <table>
+
+                    <tr>
+                        <td>2022</td>
+                        <td>
+                            <a href="https://raw.githubusercontent.com/PetrShereshevets/Resume/main/SertificatC.png">C# DEVELOPMENT</a>
+                        </td>
+                        <td>IT-Academy</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                <h3>INTERESTS </h3>
+                <ol class="list">
+                    <li>Marathon race </li>
+                    <li>Swimming</li>
+                    <li>Travels</li>
+                </ol>
+            </p>
+        </div>
+        <div class="card">
+            <p>
+                <h3>LANGUAGES </h3>
+
+                <ol class="list">
+                    <li>Russian - Native or Billingual Proficiency </li>
+                    <li>English - А1.  Beginner</li>
+                </ol>
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>WORK EXPERIENCE </h3>
+            <table>
+                <tr>
+                    <td>2019-2021</td>
+                    <td>Specialist in the effectiveness of sink programs</td>
+                    <td>Danone</td>
+                </tr>
+                <tr>
+                    <td>2017-2019</td>
+                    <td>Equipment adjuster</td>
+                    <td>Danone</td>
+                </tr>
+                <tr>
+                    <td>2016-2017</td>
+                    <td>Pasteurization operator</td>
+                    <td>Danone</td>
+                </tr>
+                <tr>
+                    <td>2015-2016</td>
+                    <td>Operator</td>
+                    <td>Danone</td>
+                </tr>
+                
+            </table>
+        </div>
+
+        <div class="card">
+            <h3>PERSONAL PROJECTS </h3>
+            <p> - </p>
+        </div>
+
+        <!--<div class="card">
+            <h2>Связаться со мной</h2>
+            <form action="/">
+                <div>
+                    <label for="name">Введите ваше имя</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="email">Введите ваш email</label>
+                    <input type="email" id="email" />
+                </div>
+                <div>
+                    <label for="message">Введите ваше сообщение</label>
+                    <br />
+                    <textarea id="message" cols="20" rows="5"></textarea>
+                </div>
+                <input type="submit" value="Отправить" />
+            </form>
+        </div>-->
+    </div>
 </body>
 </html>
