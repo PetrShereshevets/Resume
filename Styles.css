@@ -7,20 +7,24 @@ body {
     
     
 }
+
 a{ 
     color:#333;
     text-decoration: none;
 }
+
 a:hover{
     color:cornflowerblue;    
 }
 
 .container{
-    max-width: 700px;
+    max-width: 500px;
     margin: auto;
     padding-top: 30px;
     
+    
 }
+
 .contact {
     color: #0f141e;
     max-width: 175px;
@@ -28,6 +32,7 @@ a:hover{
     font-size: 12px;
     
 }
+
 .info-text {
     font-style: italic;
     font-weight: bold;
@@ -35,14 +40,13 @@ a:hover{
     margin: 25px;
     clear: both;
 }
+
 .foto {
     width: 145px;
     border-radius: 50%;
     box-shadow: 4px 4px 14px rgba(0,0,0, .50);
     margin: 5px;
-
     float: left;
-    
 }
 
 .info{
@@ -63,18 +67,20 @@ a:hover{
     margin-bottom: 10px;
 }
 
-
 .list{
     padding: 0 20px;
 }
+
 .list li{    
     margin-bottom: 7px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
 }
+
 .table{
     width:100%;
 }
+
 .table td{
     padding-bottom: 100px;
 }
